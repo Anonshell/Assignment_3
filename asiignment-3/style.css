@@ -1,0 +1,21 @@
+.fonte {
+    font-family: 'EB Garamond';
+}
+
+@media screen and (min-width: 992px) {
+    .carousel-item {
+        height: 550px;
+    }
+
+    .carousel-caption {
+        padding-top: 0;
+        padding-bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
